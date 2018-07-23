@@ -1,1 +1,1 @@
-web: gunicorn flaskrec:app --log-file=-
+web: gunicorn -k eventlet flaskrec:app
