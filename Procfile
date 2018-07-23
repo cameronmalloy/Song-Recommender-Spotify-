@@ -1,1 +1,1 @@
-web: gunicorn -k eventlet flaskrec:app ---max-requests 250
+web: gunicorn -k eventlet flaskrec:app

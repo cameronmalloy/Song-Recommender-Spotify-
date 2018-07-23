@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from consolidated_playlist_artists import *
+from imports.consolidated_playlist_artists import *
 
 def reduce_tempo(df):
     df['tempo'] = df['tempo'] * .95
@@ -31,7 +31,7 @@ def find_top_10(sp, test_name, train_name, k):
     tracks = list(test_df['uri'].values)
     recommended_tracks = {}
     i = 0
-    while len(recommended_tracks) < 20:
+    while len(recommended_tracks) < 10:
         track_all = sp.track(tracks[i])
         if not track_all['name'] in recommended_tracks.keys():
             recommended_tracks[track_all['name']] = track_all

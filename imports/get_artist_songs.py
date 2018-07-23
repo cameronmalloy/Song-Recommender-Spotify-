@@ -1,9 +1,11 @@
-from get_playlists import *
+#from get_playlists import *
+from imports.get_playlists import *
 
 def get_related_artists(sp, artists):
     related_artists = []
     for artist in artists:
         related_artists.extend(sp.artist_related_artists(artist)['artists'][:3])
+        #related_artists.append(sp.artist_related_artists(artist)['artists'][0])
     print(len(related_artists))
     related_artists_ids = []
     for artist in related_artists:
