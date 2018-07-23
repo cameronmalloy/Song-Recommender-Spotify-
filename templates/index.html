@@ -8,14 +8,15 @@
     </head>
     <body>
         <script type="text/javascript">
-        var socket = io.connect(document.URL)
+        //var socket = io.connect(document.URL)
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
 
         function execute(name) {
             socket.emit('execute', name);
         }
 
         $(document).ready(function() {
-            
+            console.log(document.URL)
             
             socket.on('add-playlist', function(name) {
                 $("#playlist-list").append(
