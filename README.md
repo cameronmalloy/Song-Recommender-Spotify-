@@ -22,5 +22,5 @@ euclidean distances to find the distances.
 4. Understand the differences between NodeJS and Flask and the strengths of each  
 5. Exposure to the workflow of testing on iPython Notebooks and translating that to the text editor  
 ## Todo:
-[ ] Tweak algorithm (accuracy and time-efficiency)
+[ ] Tweak algorithm (accuracy and time-efficiency)  
 [ ] Connect database for possible memoization
