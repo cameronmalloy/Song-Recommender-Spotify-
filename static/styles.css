@@ -1,0 +1,74 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input {
+    outline: none;
+    font-size: 1.0rem;
+    padding: 0 5px;
+  }
+  
+button {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 3px 15px;
+    color: white;
+    line-height: 25px;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+    transition: all 150ms ease-in;
+    outline: none;
+}
+
+button:hover {
+    background-color: #79d7e4;
+}
+
+button.turn {
+    color: rgb(255, 64, 129);
+    background-color: white;
+    box-shadow:none;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+button.turn:hover {
+    background-color: #eaeaea;
+}
+
+.wrapper {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playlist-button {
+    margin-bottom: 5px;
+}
+
+#recommendation-button {
+    width: 100%;
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#recommendation-button:hover {
+    background-color: rgb(235, 241, 255);
+}

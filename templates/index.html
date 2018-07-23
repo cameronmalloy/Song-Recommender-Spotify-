@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title>Spotify Playlist Recommendations</Title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+        var socket = io.connect(document.URL)
+
+        function execute(name) {
+            socket.emit('execute', name);
+        }
+
+        $(document).ready(function() {
+            
+            
+            socket.on('add-playlist', function(name) {
+                $("#playlist-list").append(
+                    '<li id="playlist-li"><button id="playlist-button" onclick=\"execute(\''+name+'\')\">'+name+'</button></li>'
+                );
+            });
+
+            socket.on('add-recommendation', function(data) {
+                $("#recommended-list").append(
+                    '<li><a href=\"'+data[2]+'\"target=\"_blank\"><div id=\"recommendation-button\">'+data[0]+' - '+data[1]+'</div></a><li>'
+                );
+            });
+
+            $('#submit').on('click', function() {
+                socket.emit('username', $('#username').val());
+            });
+
+
+
+            $('#playlist-button').on('click', function() {
+                console.log('hi');
+                //socket.emit('execute', $('#playlist-button').text());
+            });
+        });
+        </script>
+        <div class='wrapper'>
+            <input type="text" id="username">
+            <button id="submit">Submit</button>
+            <ol id="playlist-list"></ol>
+            <ul id="recommended-list"></ul>
+        </div>
+    </body>
+</html>
