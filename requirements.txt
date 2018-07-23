@@ -2,6 +2,7 @@ decorator==4.3.0
 Flask==1.0.2
 Flask-SocketIO==3.0.1
 Flask-WTF==0.14.2
+eventlet==0.23.0
 gunicorn==19.9.0
 html5lib==1.0.1
 ipykernel==4.8.2
@@ -18,4 +19,5 @@ virtualenv==16.0.0
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.14.1
+widgetsnbextension==3.2.1
 WTForms==2.2.1
