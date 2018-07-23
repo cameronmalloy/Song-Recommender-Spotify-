@@ -1,5 +1,5 @@
 # Song-Recommender-Spotify-
-* Originally deployed on Heroku, but something changed and it doesn't work, so I'm posting here *  
+**Originally deployed on Heroku, but something changed and it doesn't work, so I'm posting here**  
 Takes a Spotify username and displays the user's public playlists. Then it displays 10 recommended songs.
 ## Usage
 Install directory. Then open terminal and go to the directory. Install requirements through pip:  
