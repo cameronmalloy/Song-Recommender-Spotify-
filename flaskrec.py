@@ -4,10 +4,6 @@ import spotipy
 import spotipy.util as util
 from spotipy.oauth2 import SpotifyClientCredentials
 
-#from get_playlists import *
-#from get_artist_songs import *
-#from consolidated_playlist_artists import *
-#from get_recommendations import *
 from imports.get_playlists import *
 from imports.get_artist_songs import *
 from imports.consolidated_playlist_artists import *
