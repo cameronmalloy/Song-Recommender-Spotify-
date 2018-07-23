@@ -7680,10 +7680,10 @@ spotify:track:20vfngAaNKcBQT4fhI8Scv,https://api.spotify.com/v1/tracks/20vfngAaN
 spotify:track:3jNiVFxWIaeVwGKFCW9RtP,https://api.spotify.com/v1/tracks/3jNiVFxWIaeVwGKFCW9RtP,0.583,185613.0,0.931,5.0,-4.426,0.00841,0.0,0.0585,0.863,148.942
 spotify:track:2AcW237NZ5Qqjdo7LmlZU9,https://api.spotify.com/v1/tracks/2AcW237NZ5Qqjdo7LmlZU9,0.552,178987.0,0.846,7.0,-4.21,0.0549,0.0,0.334,0.632,152.911
 spotify:track:0tznk8A6wnquYehaM3jITg,https://api.spotify.com/v1/tracks/0tznk8A6wnquYehaM3jITg,0.732,211333.0,0.757,9.0,-3.734,0.411,7.02e-05,0.5,0.775,98.027
-spotify:track:6YtKjLt9Xfac8a2xSj3SMy,https://api.spotify.com/v1/tracks/6YtKjLt9Xfac8a2xSj3SMy,0.503,203253.0,0.644,1.0,-5.28,0.687,0.0,0.0508,0.22,84.805
+spotify:track:6YtKjLt9Xfac8a2xSj3SMy,https://api.spotify.com/v1/tracks/6YtKjLt9Xfac8a2xSj3SMy,0.357,203253.0,0.65,1.0,-5.229,0.669,0.0,0.0508,0.215,83.209
 spotify:track:64ZtUUvYqh0aeCkQzILgUy,https://api.spotify.com/v1/tracks/64ZtUUvYqh0aeCkQzILgUy,0.533,203280.0,0.778,10.0,-3.844,0.017,0.0,0.0391,0.512,147.901
-spotify:track:5SiH2PRbrf0FG71IkP7SNe,https://api.spotify.com/v1/tracks/5SiH2PRbrf0FG71IkP7SNe,0.299,247640.0,0.864,7.0,-3.934,0.0383,0.0,0.119,0.296,188.246
-spotify:track:2IxCIRGXUw4WnMhsVp0Zkm,https://api.spotify.com/v1/tracks/2IxCIRGXUw4WnMhsVp0Zkm,0.599,213307.0,0.886,10.0,-5.31,0.000351,0.0156,0.0949,0.576,127.966
+spotify:track:5SiH2PRbrf0FG71IkP7SNe,https://api.spotify.com/v1/tracks/5SiH2PRbrf0FG71IkP7SNe,0.303,247640.0,0.86,7.0,-4.003,0.0362,0.0,0.129,0.239,188.111
+spotify:track:2IxCIRGXUw4WnMhsVp0Zkm,https://api.spotify.com/v1/tracks/2IxCIRGXUw4WnMhsVp0Zkm,0.595,213307.0,0.881,2.0,-5.168,0.000361,0.0131,0.0618,0.621,127.951
 spotify:track:7mqkmECuuoiGvT5EODbtYp,https://api.spotify.com/v1/tracks/7mqkmECuuoiGvT5EODbtYp,0.598,245493.0,0.923,2.0,-5.653,0.0145,0.00115,0.123,0.706,126.0
 spotify:track:32hCu0oPVHeGwLDf3FSIPf,https://api.spotify.com/v1/tracks/32hCu0oPVHeGwLDf3FSIPf,0.624,210853.0,0.844,2.0,-4.954,0.0135,1.03e-06,0.118,0.439,120.112
 spotify:track:1LOuZmemeDN1SkJc9EemFI,https://api.spotify.com/v1/tracks/1LOuZmemeDN1SkJc9EemFI,0.537,186173.0,0.691,9.0,-4.065,0.00242,0.0,0.584,0.572,127.86
@@ -20275,7 +20275,7 @@ spotify:track:5LdGxrMThViqSlP3S5QDwU,https://api.spotify.com/v1/tracks/5LdGxrMTh
 spotify:track:4TaYepSJVXDyDxla4bzRll,https://api.spotify.com/v1/tracks/4TaYepSJVXDyDxla4bzRll,0.829,188013.0,0.314,9.0,-14.031,0.27,0.023,0.0969,0.16,104.028
 spotify:track:4OvBrVV0e9SJnlzm9pY2xZ,https://api.spotify.com/v1/tracks/4OvBrVV0e9SJnlzm9pY2xZ,0.634,210213.0,0.572,7.0,-6.141,0.378,0.000376,0.364,0.682,110.205
 spotify:track:5YnZWItuScWp3mljXmtbhp,https://api.spotify.com/v1/tracks/5YnZWItuScWp3mljXmtbhp,0.601,237027.0,0.144,7.0,-8.808,0.826,3.41e-06,0.101,0.242,171.76
-spotify:track:1la1uR2FhMLyl7jWPdBXBm,https://api.spotify.com/v1/tracks/1la1uR2FhMLyl7jWPdBXBm,0.738,218507.0,0.328,4.0,-6.216,0.962,0.0,0.19,0.36,110.854
+spotify:track:1la1uR2FhMLyl7jWPdBXBm,https://api.spotify.com/v1/tracks/1la1uR2FhMLyl7jWPdBXBm,0.74,218507.0,0.325,1.0,-6.24,0.96,0.0,0.19,0.343,110.848
 spotify:track:3awNtNI0VNDeDo0D04Slp1,https://api.spotify.com/v1/tracks/3awNtNI0VNDeDo0D04Slp1,0.701,210533.0,0.54,8.0,-6.478,0.415,0.00528,0.101,0.488,101.996
 spotify:track:4AQRiP2GOetvGGIM00T9yV,https://api.spotify.com/v1/tracks/4AQRiP2GOetvGGIM00T9yV,0.588,189933.0,0.883,0.0,-4.171,0.0351,1.69e-05,0.157,0.802,105.012
 spotify:track:3O64EW9wQLTK9tZ1m6p5E7,https://api.spotify.com/v1/tracks/3O64EW9wQLTK9tZ1m6p5E7,0.792,222080.0,0.714,0.0,-6.948,0.0456,0.0017,0.353,0.319,110.034
@@ -23593,7 +23593,7 @@ spotify:track:6PBVYvYHKmqlkTgrMcZu19,https://api.spotify.com/v1/tracks/6PBVYvYHK
 spotify:track:7uuTroBz1MfbnIozLykCEM,https://api.spotify.com/v1/tracks/7uuTroBz1MfbnIozLykCEM,0.563,180520.0,0.927,9.0,-2.668,0.128,1.84e-06,0.237,0.824,167.893
 spotify:track:2f8FHYOkBjxnNxBWXWBpsG,https://api.spotify.com/v1/tracks/2f8FHYOkBjxnNxBWXWBpsG,0.755,220547.0,0.821,4.0,-2.96,0.0495,3.58e-06,0.729,0.395,124.027
 spotify:track:69AoGCrqDo2Ycj3Wm27NxM,https://api.spotify.com/v1/tracks/69AoGCrqDo2Ycj3Wm27NxM,0.656,222213.0,0.658,2.0,-5.331,0.608,0.0,0.223,0.608,144.009
-spotify:track:0puf9yIluy9W0vpMEUoAnN,https://api.spotify.com/v1/tracks/0puf9yIluy9W0vpMEUoAnN,0.703,199387.0,0.789,0.0,-3.423,0.292,0.0,0.377,0.761,150.058
+spotify:track:0puf9yIluy9W0vpMEUoAnN,https://api.spotify.com/v1/tracks/0puf9yIluy9W0vpMEUoAnN,0.706,199387.0,0.786,0.0,-3.417,0.26,0.0,0.38,0.749,150.035
 spotify:track:6DwW8CQ35XI645torCRQFg,https://api.spotify.com/v1/tracks/6DwW8CQ35XI645torCRQFg,0.499,236360.0,0.618,2.0,-3.977,0.161,0.0,0.363,0.331,133.914
 spotify:track:4CbuYBMo1vxUnp39txRi6X,https://api.spotify.com/v1/tracks/4CbuYBMo1vxUnp39txRi6X,0.584,234907.0,0.635,9.0,-5.623,0.438,0.0,0.226,0.49,136.265
 spotify:track:4PYiIgzcp4o5pEYji1xY9q,https://api.spotify.com/v1/tracks/4PYiIgzcp4o5pEYji1xY9q,0.657,220653.0,0.738,0.0,-2.667,0.0176,0.0,0.0967,0.59,143.89
