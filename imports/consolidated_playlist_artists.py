@@ -18,13 +18,13 @@ def find_dist(row1, row2):
     row2 = np.array(row2)
     return np.sum((row1 - row2) ** 2) ** .5
 
-def delete_closest_distance(curr_row, df):
+def delete_furthest_distance(curr_row, df):
     distances = []
     for i in range(len(df.iloc[:,0:1])):#range(curr_row + 1, len(df.iloc[:,0:1])):
         row1 = list(df.iloc[curr_row].values)
         row2 = list(df.iloc[i].values)
         distances.append(find_dist(row1, row2))
-    df.drop(distances.index(min(distances)), inplace=True)
+    df.drop(distances.index(max(distances)), inplace=True)
 
 def find_num_rows(df):
     return len(df.iloc[:,0:1])
@@ -38,7 +38,7 @@ def ten_percent_rows(df):
         ten_percent = 10
     curr_row = 0
     while find_num_rows(df) > ten_percent:
-        delete_closest_distance(curr_row, df)
+        delete_furthest_distance(curr_row, df)
         df.reset_index(inplace=True, drop=True)
         curr_row = (curr_row + 1) % len(df.iloc[:,0:1])
 
