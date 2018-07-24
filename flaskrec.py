@@ -8,7 +8,7 @@ from imports.get_playlists import *
 from imports.get_artist_songs import *
 from imports.consolidated_playlist_artists import *
 from imports.get_recommendations import *
-from setup_dataframes import *
+from imports.setup_dataframes import *
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '36363bab19a8b9f255028be3ce336fdd'
