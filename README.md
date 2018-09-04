@@ -1,4 +1,5 @@
-# Song-Recommender-Spotify-
+# Song-Recommender-Spotify
+### **WORK IN PROGRESS, unfinished**
 **Originally deployed on Heroku, but something changed and it doesn't work, so I'm posting here**  
 Takes a Spotify username and displays the user's public playlists. Then it displays 10 recommended songs.
 ## Usage
