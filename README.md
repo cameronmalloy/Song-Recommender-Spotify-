@@ -2,7 +2,10 @@
 ### **WORK IN PROGRESS, unfinished**
 **Originally deployed on Heroku, but something changed and it doesn't work, so I'm posting here**  
 Takes a Spotify username and displays the user's public playlists. Then it displays 10 recommended songs.
-## Usage
+## Change to socket library, won't display recommended list, so it prints to terminal
+
+
+## Archived
 Install directory. Then open terminal and go to the directory. Install requirements through pip:  
 <code>pip install -r requirements.txt</code> or <code>pip3 install -r requirements</code>  
 Then, run  
@@ -25,3 +28,4 @@ euclidean distances to find the distances.
 ## Todo:
 [ ] Tweak algorithm (accuracy and time-efficiency)  
 [ ] Connect database for possible memoization
+[ ] Find another library for server-client communication
