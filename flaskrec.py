@@ -57,7 +57,8 @@ def handle_execute(playlist_name):
     songs_to_csv(related_artist_data, 'test.csv')
     recommended = find_top_10(sp, 'test.csv', 'training.csv', 5)
     for track in list(recommended.values()):
-        emit('add-recommendation', [track['name'], track['artists'][0]['name'], track['preview_url']])
+        #emit('add-recommendation', [track['name'], track['artists'][0]['name'], track['preview_url']])
+        print('Name: {0} | Artist: {1}'.format(track['name'], track['artists'][0]['name']))
 
 
 if __name__ == '__main__':
